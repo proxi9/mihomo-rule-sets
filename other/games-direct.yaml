@@ -85,6 +85,11 @@ payload:
   # Rust (не указан явно выше)
   - PROCESS-NAME-REGEX,(?i).*RustClient.* # Rust
 
+  # Escape from Tarkov
+  - PROCESS-NAME,BsgLauncher.exe # EFT Launcher
+  - PROCESS-NAME,EscapeFromTarkov.exe # Escape From Tarkov 
+  - PROCESS-NAME,EscapeFromTarkovArena.exe # Escape From Tarkov - Arena
+
   # Античиты (группировка)
   - PROCESS-NAME,start_protected_game.exe # Apex Easy Anti-Cheat
   - PROCESS-NAME,BattleBitEAC.exe # BattleBit EAC
@@ -93,4 +98,7 @@ payload:
   - PROCESS-NAME,TslGame_ZK.exe # PUBG Anti-Cheat module
   - PROCESS-NAME-REGEX,(?i).*Vanguard.* # Valorant Vanguard Anti-Cheat
   - PROCESS-NAME,start_protected_game.exe # The FINALS anticheat start exe
+  - PROCESS-NAME,EscapeFromTarkovArena_BE.exe # Escape From Tarkov - Arena Battle Eye Anticheat
+  - PROCESS-NAME,EscapeFromTarkov_BE.exe # Escape From Tarkov Battle Eye Anticheat
+
 
